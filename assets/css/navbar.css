@@ -1,0 +1,133 @@
+/* navbar */
+nav{
+ background-color: #00346B;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 98;
+}
+label.logo{
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 0 0 5%;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin: 0;
+  background-color: #00346B;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 25px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 0px 13px 2px;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  position: relative;
+  height: 55px;
+}
+a:hover {
+  color: var(--theme);
+}
+nav a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--theme);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+a:hover::before {
+  transform: scaleX(1);
+}
+.nav_button a{
+  text-decoration: none;
+ color: #fff; 
+}
+.nav_button{
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: var(--theme);
+  border: 2px solid var(--theme);
+}
+.nav_button:hover{
+  border:2px solid #fff;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 25px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 1170px){
+  .checkbtn{
+    display: block;
+    margin-top: 25px;
+  }
+  nav{
+    position: fixed;
+    z-index: 100;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #00346B;
+    border-top: 1px solid #000;
+    top: 80px;
+    left: -100%;
+    z-index: 100;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: var(--theme);
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .nav_button{
+  margin-left: 20px; 
+}
+.fake{
+  display: block;
+  padding: 40px 0;
+}
+}

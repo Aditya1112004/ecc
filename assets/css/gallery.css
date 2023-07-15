@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.gallery{
+    padding-top: 100px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5%;
+}
+.column{
+    width: 24.5%;
+}
+.column img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.gallery h1{
+    width: 100%;
+    text-align: center;
+    color: #CC5F12;
+    font-size: 60px;
+    padding: 0px 0 10px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+

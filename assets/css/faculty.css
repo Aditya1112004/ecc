@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.faculty{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+}
+.faculty_left{
+    padding: 2%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+}
+.faculty_left .facultyPic{
+    width: 270px;
+    height: 350px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;   
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+.shape{
+    width: 320px;
+    height: 150px;
+    transform: rotate(25deg);
+    background-color: #7124b0;
+    /* position: absolute; */
+    z-index: -1;
+    margin-top: -60px;
+    margin-left: -10px;
+}
+.facInfo{
+    margin-top: -80px;
+}
+.faculty_left .poster{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+}
+.info{
+    margin-top: 10px;
+}
+.info h5{
+    margin-top: 10px;
+}
+.facultyPic .social{
+    margin-top: 20px;
+    background-color: #7124b0;
+    color: #fff;
+    text-align: center;
+    padding: 7px 5px 5px ;
+    border-radius: 15px;
+}
+.facultyPic .social i{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+    color: #fff;
+    display: inline-block;
+    font-size: 25px;
+}
+.faculty_right{
+    padding:9% 2%;
+    width: 40%;
+}
+.faculty_right h1{
+    font-size: 95px;
+    font-weight: 500;
+    width: fit-content;
+    color: var(--theme);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+/*  */
+/* 
+.shape {
+    background-color: #00346B;
+    height: 250px;
+    width: 400px;
+    margin-left: -20px;
+    position: relative;
+    top: -320px;
+    box-shadow: 0 2px 15px #a1c6d0;
+    transform: rotate(25deg);
+    display: flex;
+    z-index: -1;
+} */

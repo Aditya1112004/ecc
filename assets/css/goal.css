@@ -1,0 +1,33 @@
+.goal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    /* background-color: #e1e1e1; */
+    
+}
+.goal .goal_card{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin:0 2.5% 0 2.5%;
+}
+.goal_card .goal_left{
+    /* width: 22%; */
+    padding:30px 15px 10px 15px;
+}
+.goal_card .goal_right{
+    width: 78%;
+    padding-bottom: 15px;
+}
+.goal_left i{
+    font-size: 90px;
+    color: #00346B;
+}
+.goal_right h2{
+    color: #00346B;
+}

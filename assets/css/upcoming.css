@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.upcoming{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.upcoming_sub{
+    width: 50%;
+    overflow: hidden;
+}
+.upcoming_left{
+    padding:10% 13%;
+}
+.upcoming_left h1{ 
+    font-size: 95px;
+    font-weight: 500;
+    width: fit-content;
+    color: var(--theme);
+    /* border: 1px solid red;  */
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.upcoming_right{
+    padding: 4% 15% 4% 0;
+}
+.upcoming_right .poster{
+    width: 350px;
+}
