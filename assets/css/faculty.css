@@ -30,7 +30,7 @@
     width: 320px;
     height: 150px;
     transform: rotate(25deg);
-    background-color: #7124b0;
+    background-color: #e82f21;
     /* position: absolute; */
     z-index: -1;
     margin-top: -60px;
@@ -52,7 +52,7 @@
 }
 .facultyPic .social{
     margin-top: 20px;
-    background-color: #7124b0;
+    background-color: #e82f21;
     color: #fff;
     text-align: center;
     padding: 7px 5px 5px ;
