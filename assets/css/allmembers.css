@@ -5,6 +5,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: url("../images/bg.png");
+    background-size: auto;
+    padding-bottom: 50px;
 }
 .mem .memcard{
     width: 100%;
