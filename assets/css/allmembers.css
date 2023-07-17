@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.mem{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mem .memcard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6%;
+    padding: 20px 0;
+}
+.card{
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    padding:10px 10px 15px ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin:20px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin:10px auto;
+    z-index:1 ;
+}
+.card .info{
+    padding: 2px;
+    text-align: center;
+    z-index:1 ;
+}
+
+.card .info h3{
+    margin-top: 10px;
+}
+.card .info h5{
+    margin: 15px 0;
+}
+.card .handles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20%;
+    font-size: 25px;
+    background-color: #00346B;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+}
+.bg{
+    background-color: #00346B;
+    width: 350px;
+    height: 150px;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    top: -50px;
+    left: -10px;
+}
+.mem h1{
+    margin-top: 50px;
+    text-align: center;
+    background-color: var(--theme);
+    color: #fff;
+    width: fit-content;
+    padding:5px 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1 button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.ff .bg,.ff .handles{
+    background-color: #df3e29;
+}
+.old .bg,.old .handles{
+    background-color: rgb(50, 50, 50);
+}
