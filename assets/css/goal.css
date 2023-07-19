@@ -31,3 +31,27 @@
 .goal_right h2{
     color: #00346B;
 }
+
+@media screen and (max-width:500px) { 
+    .goal .goal_card{
+        width: 100%;
+        margin:0 2.5% 10px 2.5%;
+    }
+    .goal_card .goal_left{
+        padding: 10px;
+        width: 22%;
+    }
+    .goal_card .goal_right{
+        width: 78%;
+        padding-bottom: 15px;
+    }
+    .goal_left i{
+        margin-top: 40px;
+        font-size: 55px;
+    }
+    .goal_right h2{
+        margin-top: 10px;
+        font-size: 30px;
+        margin-right: 35px;
+    }
+}
