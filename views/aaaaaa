@@ -2,9 +2,6 @@
 <%-include('alertposter.ejs')%>
 
 
-<!-- faculty  -->
-<%-include('faculty.ejs')%>
-
 <!-- team  -->
 <%-include('team.ejs')%>
 
