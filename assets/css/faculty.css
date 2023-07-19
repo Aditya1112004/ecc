@@ -83,7 +83,7 @@
 
 @media screen and (max-width:400px) {
     .faculty{
-        padding: 0;
+        padding: 0 0 10px 0;
         padding-top: 10px;
     }
     .faculty_sub{
