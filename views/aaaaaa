@@ -1,6 +1,3 @@
 <!-- alertposter  -->
 <%-include('alertposter.ejs')%>
 
-
-<!-- footer -->
-<%-include('footer.ejs')%>
