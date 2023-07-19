@@ -1,3 +1,0 @@
-<!-- alertposter  -->
-<%-include('alertposter.ejs')%>
-

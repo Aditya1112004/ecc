@@ -15,6 +15,8 @@ const port = process.env.PORT || 3001;
 // data api
 const oldteam = require('./oldteam');
 const newteam = require('./newteam');
+const allevents = require('./allevents');
+const gallery = require('./gallery');
 
 //Public Static Path
 app.use("/css", express.static(path.resolve(__dirname, "assets/css")));
@@ -43,11 +45,12 @@ app.get("/index", (req, res) => {
 //allevents
 app.get("/allevents", (req, res) => {
   res.render("allevents");
+  // res.render("allevents",{allevents});
 });
 
 //gallery
 app.get("/gallery", (req, res) => {
-  res.render("gallery");
+  res.render("gallery",{gallery});
 });
 
 //allmembers

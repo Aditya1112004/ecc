@@ -1,33 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
-
+*{
+    margin: 0;padding: 0;
+}
 .gallery{
     padding-top: 100px;
-
  background-image: url("../images/bg.png");
  background-repeat: no-repeat;
  background-size: cover;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: .5%;
-}
-.column{
-    width: 24.5%;
-}
-.column img{
-    width: 100%;
-    margin-top: 10px;
-}
 
 .gallery h1{
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     color: #CC5F12;
     font-size: 60px;
-    padding: 0px 0 10px 0;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
 }
+hr{
+    color: grey;
+}
+.eventinfo h3{
+    color: #fff;
+    text-align: center;
+}
+.eventinfo .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.eventphoto{
+    width: 25%;
+    /* border: 1px solid red; */
+}
 
+@media screen and (max-width:700px) {
+    .eventphoto{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .eventphoto{
+        width: 50%;
+    }
+}
