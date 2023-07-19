@@ -2,9 +2,6 @@
 <%-include('alertposter.ejs')%>
 
 
-<!-- pastEvent  -->
-<%-include('pastEvent.ejs')%>
-
 <!-- faculty  -->
 <%-include('faculty.ejs')%>
 

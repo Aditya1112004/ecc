@@ -49,3 +49,13 @@
     border: 1px solid var(--theme);
     background-color: var(--theme);
 }
+
+@media screen and (max-width:600px) {
+    .eventCard{
+        width: 250px;
+    }
+    .eventposter{
+        height: 350px;
+    }
+    
+}
