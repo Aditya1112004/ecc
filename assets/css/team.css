@@ -56,7 +56,7 @@
     margin-left: -10px;
 }
 .team .teamInfo{
-    margin-top: -50px;
+    margin-top: -60px;
 }
 .team .poster{
     width: 150px;
@@ -64,10 +64,10 @@
     border-radius:50%;
 }
 .team .info{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .team .info h5{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .teamPic .social{
     margin-top: 20px;
@@ -81,7 +81,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 20%;
+    width: 25%;
     color: #fff;
     display: inline-block;
     font-size: 25px;
@@ -94,4 +94,56 @@
 .fullteam img{
     width: 100%;
     height: 600px;
+}
+
+@media screen and (max-width:400px) {
+    .team{
+        padding: 0 0 10px 0;
+        padding-top: 10px;
+    }
+    .team_sub{
+        padding: 0;
+        width: 100%;
+    }
+    .team h1{
+        font-size: 55px;
+    }
+    .teams .teamPic{
+        width: 230px;
+        height: 310px;
+        padding: 2px;
+        margin-top: 15px;
+    }
+    .shape{
+        width: 310px;
+        height: 150px;
+        margin-left: 0px;
+    }
+    .team .teamInfo{
+        margin-top: -80px;
+    }
+    .team_left .poster{
+        width: 150px;
+        height: 150px;
+        border-radius:50%;
+    }
+    .info{
+        margin-top: 15px;
+    }
+    .info h5{
+        margin-top: 15px;
+    }
+    .teamPic .social{
+        width: 96%;
+        margin:20px 2%;
+    }
+    
+    .fullteam{
+        width: 90%;
+        padding: 0 5%;
+    }
+    .fullteam img{
+        width: 100%;
+        height: 210px;
+    }
 }
