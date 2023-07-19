@@ -2,8 +2,5 @@
 <%-include('alertposter.ejs')%>
 
 
-<!-- team  -->
-<%-include('team.ejs')%>
-
 <!-- footer -->
 <%-include('footer.ejs')%>
