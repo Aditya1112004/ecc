@@ -26,5 +26,5 @@
     padding: 4% 15% 4% 0;
 }
 .upcoming_right .poster{
-    width: 350px;
+    width: 350px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

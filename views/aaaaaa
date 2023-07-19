@@ -1,0 +1,20 @@
+<!-- alertposter  -->
+<%-include('alertposter.ejs')%>
+
+<!-- goal  -->
+<%-include('goal.ejs')%>
+
+<!-- upcoming  -->
+<%-include('upcoming.ejs')%>
+
+<!-- pastEvent  -->
+<%-include('pastEvent.ejs')%>
+
+<!-- faculty  -->
+<%-include('faculty.ejs')%>
+
+<!-- team  -->
+<%-include('team.ejs')%>
+
+<!-- footer -->
+<%-include('footer.ejs')%>

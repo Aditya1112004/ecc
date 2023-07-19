@@ -12,8 +12,11 @@ const messages = require("./src/models/messages");
 
 const port = process.env.PORT || 3001;
 
-//Public Static Path
+// data api
+const oldteam = require('./oldteam');
+const newteam = require('./newteam');
 
+//Public Static Path
 app.use("/css", express.static(path.resolve(__dirname, "assets/css")));
 app.use("/js", express.static(path.resolve(__dirname, "assets/js")));
 app.use("/images", express.static(path.resolve(__dirname, "assets/images")));
@@ -25,6 +28,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.set("view engine", "ejs");
+
 
 // //Routing
 app.get("/", (req, res) => {
@@ -48,7 +52,7 @@ app.get("/gallery", (req, res) => {
 
 //allmembers
 app.get("/allmembers", (req, res) => {
-  res.render("allmembers");
+  res.render("allmembers",{oldteam,newteam});
 });
 
 //about

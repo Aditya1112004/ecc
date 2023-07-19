@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 .mem{
     padding-top: 100px;
     display: flex;
@@ -23,7 +24,7 @@
     justify-content: center;
     padding:10px 10px 15px ;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 20px;
     margin:20px 0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -42,9 +43,12 @@
 
 .card .info h3{
     margin-top: 10px;
+    font-weight: 550;
+    font-family: 'Inter', sans-serif;
 }
 .card .info h5{
     margin: 15px 0;
+    font-family: 'PT Serif', serif;
 }
 .card .handles {
     display: flex;
@@ -55,7 +59,10 @@
     background-color: #00346B;
     border-radius: 20px;
     padding: 10px;
-    color: #fff;
+ 
+}
+.card a{
+       color: #fff;
 }
 .bg{
     background-color: #00346B;

@@ -37,7 +37,7 @@
     margin-left: -10px;
 }
 .facInfo{
-    margin-top: -80px;
+    margin-top: -50px;
 }
 .faculty_left .poster{
     width: 150px;
@@ -81,7 +81,20 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-
+@media screen and (max-width:400px) {
+  .faculty_right{
+  width: 50%;
+  }
+.faculty_right h1{
+    font-size: 40px;
+    font-weight: 500;
+    width: fit-content;
+    color: var(--theme);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+}
 
 /*  */
 /* 

@@ -100,11 +100,11 @@ span{
     height: fit-content;
   }
   h6{
-    font-size: 40px;
+    /* font-size: 40px; */
     /* border: 1px solid red; */
   }
   span{
-    font-size: 40px;
+    font-size: 70px;
   }
   .icons .span h6{
     font-size: 20px;
@@ -134,46 +134,45 @@ span{
 
 
 @media screen and (max-width:660px) {
-  .phone_img{
-    /* display: none; */
-    margin: 20px 25% ;
-  }
   .sub{
     width: 100%;
   }
-  .div{
-    width: 100%;
-    /* border: 1px solid red; */
-  }
   .div h6{
     text-align: center;
-    font-size: 30px;
+    /* border: 1px solid red; */
   }
-  .div span{
-    font-size: 30px;
+  .left u{
+    font-size: 16px;
   }
-  .div p{
+  .left p{
+    display: none;
+  }
+  .span{
     font-size: 25px;
   }
-}
-@media screen and (max-width:420px)and (min-width:361px) {
-  .right{
-    padding: 0 0;
+  .icons i{
+  font-size: 25px;
+  margin: 10px ;
+  padding: 10px;
   }
-  .phone_img{
-    margin: 20px 0 0 15% ;
-    /* width: 200px; */
-    /* display: none; */
-  }
-} 
-@media screen and (max-width:360px) {
-  .sub .phone_img{
-    margin: 20px 0 20px 6%;
-    /* display: none; */
+  .right .phone_img{
+  width: 200px;
+  margin: 20px 16%;
   }
 }
-@media screen and (max-width:340px) {
-  .sub .phone_img{
-    margin: 20px 0 20px 2%;
+
+
+@media screen and (min-width:400px) and (max-width:519px) {
+  .right .phone_img{
+  margin: 20px 25%;
+  }
+}
+@media screen and (min-width:520px)  and (max-width:750px){
+  .sub{
+    width: 100%;
+  }
+  .right .phone_img{
+    width: 300px;
+  margin: 20px 27%;
   }
 }

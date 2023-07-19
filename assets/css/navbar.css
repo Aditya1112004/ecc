@@ -81,11 +81,19 @@ a:hover::before {
 #check{
   display: none;
 }
-@media (max-width: 952px){
+@media (max-width: 400px){
   label.logo{
-    font-size: 25px;
-    padding-left: 50px;
+    font-size: 20px;
+    padding-left: 5px;
   }
+  nav ul li a{
+    font-size: 16px;
+  }
+  #logo{
+    /* width: 30px; */
+  }
+}
+@media (max-width: 952px){
   nav ul li a{
     font-size: 16px;
   }
@@ -128,9 +136,15 @@ a:hover::before {
   }
   .nav_button{
   margin-left: 20px; 
-}
-.fake{
-  display: block;
-  padding: 40px 0;
-}
+  }
+  .checkbtn{
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    top: -23px;
+  }
+  .fake{
+    display: block;
+    padding: 40px 0;
+  }
 }
