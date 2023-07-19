@@ -1,11 +1,6 @@
 <!-- alertposter  -->
 <%-include('alertposter.ejs')%>
 
-<!-- goal  -->
-<%-include('goal.ejs')%>
-
-<!-- upcoming  -->
-<%-include('upcoming.ejs')%>
 
 <!-- pastEvent  -->
 <%-include('pastEvent.ejs')%>

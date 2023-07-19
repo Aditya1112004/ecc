@@ -28,3 +28,26 @@
 .upcoming_right .poster{
     width: 350px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
+@media screen and (max-width:750px) {
+    .upcoming_sub{
+        width: 100%;
+    }
+    .upcoming_left{
+        padding:0;
+    }
+    .upcoming_left h1{ 
+        font-size:60px;
+        text-align: center;
+        width: 100%;
+    }
+    .upcoming_right{
+        /* padding: 4% 15% 4% 0; */
+        padding: 0;
+    }
+    .upcoming_right .poster{
+        width: 300px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
