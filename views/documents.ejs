@@ -2,15 +2,29 @@
   <link rel="stylesheet" href="/css/documents.css">
 </head>
 
+<!-- navbar -->
+<%-include('partials/navbar.ejs')%>
+<div class="fake"></div>
+
+
 <section class="doc">
-  <h1 data-aos="slide-up">Documents</h1>
+  <h1 data-aos="slide-up" class="doch1">Documents</h1>
   <div class="docs">
-    
+  <h1 data-aos="slide-up " class="docsh1">Documents</h1>
+  
+  <% docs.forEach(doc => { %>
+   
     <div class="singledoc">
-        <p>Engineers Connect Club Brochure.</p>
-        <a href="/Ecc_Brochure.pdf" download><button>Download <i class="fa fa-solid fa-file-pdf"></i></button></a>
+        <p><%=doc.docTitle%></p>
+        <a href="/docs/<%=doc.docTitle%>" download><button>Download <i class="fa fa-solid fa-file-pdf"></i></button></a>
     </div>
+   
+  <% }) %>
 
   </div>
 
 </section>
+
+
+<!-- footer -->
+<%-include('footer.ejs')%>

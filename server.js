@@ -17,6 +17,7 @@ const oldteam = require('./oldteam');
 const newteam = require('./newteam');
 const allevents = require('./allevents');
 const gallery = require('./gallery');
+const docs = require('./docs');
 
 //Public Static Path
 app.use("/css", express.static(path.resolve(__dirname, "assets/css")));
@@ -61,6 +62,11 @@ app.get("/allmembers", (req, res) => {
 //about
 app.get("/about", (req, res) => {
   res.render("about");
+});
+
+//documents
+app.get("/documents", (req, res) => {
+  res.render("documents",{docs});
 });
 
 //error404

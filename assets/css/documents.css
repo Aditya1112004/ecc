@@ -1,71 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
-
+*{
+    margin: 0;padding: 0;
+}
 .doc{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #e1e1e1;
-    padding: 0 0 30px 0;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+    
 }
 .doc h1{
-    width: 100%;
     text-align: center;
-    color: var(--theme);
-    font-size: 60px;
-    padding: 30px 0 10px 0;
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 55px;
+    color: #CC5F12;
+    padding-top: 10px;
 }
 .docs{
-    width: 60%;
+    margin:100px 20%;
 }
 .singledoc{
-    width: 100%;
+    margin-top: 10px;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0px 10px;
+    padding: 5px 5px 0 5px;
     justify-content: center;
     background-color: #fff;
-    border: 1px solid #fff;
     border-radius: 10px;
 }
 .singledoc p{
-    margin-top: 15px;
-    width:85%;
-    font-size: 20px;
-    font-weight: 600;
-    color: #00346B;
+    width: 85%;
+    font: 18px sans-serif;
+    padding: 10px 0 0 0;
 }
 .singledoc button{
-    /* border: 1px solid red; */
-    padding: 7px 15px;
-    margin-top: 10px;
-    color: #00346B;
-    border-radius: 7px;
-    background-color: transparent;
-    border: 1px solid #00346B;
-}
-.singledoc button i{
-    margin-left: 5px;
+    margin-top: 4px;
+    padding: 4px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #095bb3;
+    border: #095bb3;
 }
 .singledoc button:hover{
-    background-color: #00346B;
-    border: #00346B;
-    color: #fff;
+    border:1px solid #095bb3;
+    background-color: #efefef;
+    color: #095bb3;
     transition: .3s;
+}
+.docsh1{
+    display: none;
 }
 
 @media screen and (max-width:500px) {
-    .docs{
-        width: 90%;
+    .fake{
+        display: none;
     }
-    .singledoc p{
-        font-size: 18px;
-        width: 100%;
-        margin: 5px;
+    .docs{
+        margin: 10px 2%;
+    }
+    .docs .doch1{
+        padding: 0;
+        font-size: 30px;
     }
     .singledoc button{
-        margin: 0 0 5px 0;
-        padding: 2px 10px;
+        font-size: 18px;
+    }
+    .docsh1{
+        font-size: 30px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .doch1{
+        display: none;
     }
 }
