@@ -45,8 +45,7 @@ app.get("/index", (req, res) => {
 
 //allevents
 app.get("/allevents", (req, res) => {
-  res.render("allevents");
-  // res.render("allevents",{allevents});
+  res.render("allevents",{allevents});
 });
 
 //gallery
@@ -62,6 +61,11 @@ app.get("/allmembers", (req, res) => {
 //about
 app.get("/about", (req, res) => {
   res.render("about");
+});
+
+//upcoming
+app.get("/upcoming", (req, res) => {
+  res.render("upcoming");
 });
 
 //documents

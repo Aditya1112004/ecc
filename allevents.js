@@ -1,103 +1,34 @@
 allevents = [
+
     {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
+     img: 'www.jpg',
+     eventTitle: 'web wizard workshop',
+     eventDate: '24/04/23',
     },
     {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
+     img: 'webinar.jpeg',
+     eventTitle: 'webinar',
+     eventDate: '18/12/22',
     },
     {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
+     img:'youthtalk.jpg',
+     eventTitle:'youthtalk',
+     eventDate:'30/10/22',
     },
     {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
+     img:'induction.jpg',
+     eventTitle:'induction',
+     eventDate:'14/10/22',
     },
     {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
+        img:'utopia.jpeg',
+        eventTitle:'utopia',
+     eventDate:'26/07/22',
     },
     {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-        img: '',
-        eventTitle: '',
-        eventDate: '',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
-    },
-    {
-     img:''   ,
-     eventTitle:'',
-     eventDate:'',
+     img:'utopia.jpg',
+     eventTitle:'utopia',
+     eventDate:'26/07/22',
     },
 ];
 

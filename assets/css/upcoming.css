@@ -6,7 +6,7 @@
     justify-content: center;
     text-align: center;
 }
-.upcoming_sub{
+.upcoming_sub{  
     width: 50%;
     overflow: hidden;
 }
@@ -25,8 +25,10 @@
 .upcoming_right{
     padding: 4% 15% 4% 0;
 }
-.upcoming_right .poster{
-    width: 350px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.upcoming_right .poster{    
+    width: 350px;
+    height: 470px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 

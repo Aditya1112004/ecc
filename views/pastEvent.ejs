@@ -1,3 +1,4 @@
+
 <head>
     <link rel="stylesheet" href="/css/pastEvent.css">
 </head>
@@ -5,30 +6,18 @@
 <section class="pastevents">
     <h1 data-aos="slide-up">Previous Events</h1>
     <div class="events">
-        <div class="eventCard"  data-aos="slide-up">
-            <img src="/images/poster1.jpg" alt="" class="eventposter" >
-            <div class="eventinfo">
-                <h3 class="eventtitle">Web Wizard Wars</h3>
-                <h5 class="eventdate">Date: 29/04/2022</h5>
-            </div>
-        </div>
-        
+       
+        <% allevents.forEach(event => { %>
+         
         <div class="eventCard" data-aos="slide-up">
-            <img src="/images/poster.jpg" alt="" class="eventposter" >
+            <img src="/images/posters/<%=event.img%>" alt="" class="eventposter" >
             <div class="eventinfo">
-                <h3 class="eventtitle">Web Wizard Wars</h3>
-                <h5 class="eventdate">Date: 29/04/2022</h5>
+                <h3 class="eventtitle"><%=event.eventTitle%></h3>
+                <h5 class="eventdate">Date: <%=event.eventDate%></h5>
             </div>
         </div>
         
-        <div class="eventCard" data-aos="slide-up">
-            <img src="/images/poster1.jpg" alt="" class="eventposter" >
-            <div class="eventinfo">
-                <h3 class="eventtitle">Web Wizard Wars</h3>
-                <h5 class="eventdate">Date: 29/04/2022</h5>
-            </div>
-        </div>
-        
+        <% }) %>
     </div>
     
         <a href="/allevents"><button>More</button></a>

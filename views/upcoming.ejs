@@ -8,7 +8,11 @@
     </div>
 
     <div class="upcoming_right upcoming_sub">
-        <img src="/images/poster.jpg" alt="" class="poster" data-aos="slide-left">
+        
+        <% for( let i = 0; i <=1 ; i++ ) { %>
+         <%const element = allevents[i];%>
+            <img src="/images/posters/<%=allevents.img%>" alt="" class="poster" data-aos="slide-left">
+        <% } %>
     </div>
 </section>
 
