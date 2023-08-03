@@ -7,6 +7,7 @@
  background-image: url("../images/bg.png");
  background-repeat: no-repeat;
  background-size: cover;
+ 
 }
 
 .gallery h1{
@@ -25,12 +26,14 @@ hr{
     text-align: center;
 }
 .eventinfo .row{
+    padding: 0 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .eventphoto{
     width: 25%;
+    height: 250px;
     /* border: 1px solid red; */
 }
 

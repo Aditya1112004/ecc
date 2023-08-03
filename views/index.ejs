@@ -19,10 +19,10 @@
 
     <div class="upcoming_right upcoming_sub">
         
-        <% for( let i = 0; i <1 ; i++ ) { %>
-         <%const element = allevents[i];%>
+      <% upcoming.forEach(element => { %>
             <img src="/images/posters/<%=element.img%>" alt="" class="poster" data-aos="slide-left">
-        <% } %>
+      <% }) %>
+        
     </div>
 </section>
 

@@ -1,5 +1,4 @@
 allevents = [
-
     {
      img: 'www.jpg',
      eventTitle: 'web wizard workshop',
@@ -33,3 +32,4 @@ allevents = [
 ];
 
 module.exports = allevents;
+

@@ -16,6 +16,7 @@ const port = process.env.PORT || 3001;
 const oldteam = require('./oldteam');
 const newteam = require('./newteam');
 const allevents = require('./allevents');
+const upcoming = require('./upcoming');
 const gallery = require('./gallery');
 const docs = require('./docs');
 
@@ -35,17 +36,17 @@ app.set("view engine", "ejs");
 
 // //Routing
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("index", { upcoming });
 });
 
 //index
 app.get("/index", (req, res) => {
-  res.render("index");
+  res.render("index",{upcoming});
 });
 
 //allevents
 app.get("/allevents", (req, res) => {
-  res.render("allevents",{allevents});
+  res.render("allevents",{allevents:allevents});
 });
 
 //gallery
@@ -65,7 +66,7 @@ app.get("/about", (req, res) => {
 
 //upcoming
 app.get("/upcoming", (req, res) => {
-  res.render("upcoming");
+  res.render("upcoming",{upcoming});
 });
 
 //documents

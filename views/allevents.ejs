@@ -43,61 +43,17 @@
 
 <section class="all">
     <h1>Previous Events</h1>
-    <div class="allevent">
-        <img src="/images/poster.jpg" alt="" class="alleventpic">
+
+    
+    
+        <% allevents.forEach(event => { %>
+         
+        <div class="allevent">
+        <img src="/images/posters/<%=event.img%>" alt="" class="alleventpic">
         <div class="alleventinfo">
-            <h3>Web wizard War</h3>
-            <h5>Date: 02/07/2023</h5>
+            <h3><%=event.eventTitle%></h3>
+            <h5>Date: <%=event.eventDate%></h5>
         </div>
     </div>
-    
-    <div class="allevent">
-        <img src="/images/poster1.jpg" alt="" class="alleventpic">
-        <div class="alleventinfo">
-            <h3>Web wizard War</h3>
-            <h5>Date: 02/07/2023</h5>
-        </div>
-    </div>
-    
-    
-    <div class="allevent">
-        <img src="/images/poster.jpg" alt="" class="alleventpic">
-        <div class="alleventinfo">
-            <h3>Web wizard War</h3>
-            <h5>Date: 02/07/2023</h5>
-        </div>
-    </div>
-    
-    
-    <div class="allevent">
-        <img src="/images/poster1.jpg" alt="" class="alleventpic">
-        <div class="alleventinfo">
-            <h3>Web wizard War</h3>
-            <h5>Date: 02/07/2023</h5>
-        </div>
-    </div>
-    
-    <div class="allevent">
-        <img src="/images/poster.jpg" alt="" class="alleventpic">
-        <div class="alleventinfo">
-            <h3>Web wizard War</h3>
-            <h5>Date: 02/07/2023</h5>
-        </div>
-    </div>
-    
-    <div class="allevent">
-        <img src="/images/poster1.jpg" alt="" class="alleventpic">
-        <div class="alleventinfo">
-            <h3>Web wizard War</h3>
-            <h5>Date: 02/07/2023</h5>
-        </div>
-    </div>
-    
-    <div class="allevent">
-        <img src="/images/poster.jpg" alt="" class="alleventpic">
-        <div class="alleventinfo">
-            <h3>Web wizard War</h3>
-            <h5>Date: 02/07/2023</h5>
-        </div>
-    </div>
+        <% }) %>
 </section>
