@@ -1,32 +1,27 @@
 allevents = [
     {
      img: 'www.jpg',
-     eventTitle: 'web wizard workshop',
+     eventTitle: 'Web Wizard Workshop',
      eventDate: '24/04/23',
     },
     {
      img: 'webinar.jpeg',
-     eventTitle: 'webinar',
+     eventTitle: 'Webinar',
      eventDate: '18/12/22',
     },
     {
      img:'youthtalk.jpg',
-     eventTitle:'youthtalk',
+     eventTitle:'Youthtalk',
      eventDate:'30/10/22',
     },
     {
      img:'induction.jpg',
-     eventTitle:'induction',
+     eventTitle:'Induction',
      eventDate:'14/10/22',
     },
     {
-        img:'utopia.jpeg',
-        eventTitle:'utopia',
-     eventDate:'26/07/22',
-    },
-    {
      img:'utopia.jpg',
-     eventTitle:'utopia',
+     eventTitle:'Utopia',
      eventDate:'26/07/22',
     },
 ];
