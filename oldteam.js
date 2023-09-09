@@ -88,7 +88,7 @@ oldteam = [
         mail: 'simritgill456@gmail.com',
     },
     {
-        img: 'Adarsh.jpg',
+        img: 'adarsh.jpg',
         name: 'Adarsh',
         desg: 'Treasurer',
         insta: '_adi.patil_?igshid=MzNlNGNkZWQ4Mg==',
@@ -96,7 +96,7 @@ oldteam = [
         mail: 'patiladi25@gmail.com',
     },
     {
-        img: 'Aryan.jpg',
+        img: 'aryan.jpg',
         name: 'Aryan',
         desg: 'Technical Lead',
         insta: 'aryan.01b?igshid=MzNlNGNkZWQ4Mg==',
@@ -112,15 +112,15 @@ oldteam = [
         mail: 'tanishshendge151@gmail.com',
     },
     {
-        img: '.jpg',
+        img: 'mem.jpg',
         name: '#',
-        desg: '#',
+        desg: 'Graphics Designer',
         insta: '#',
         linkedin: '#',
         mail: '#',
     },
     {
-        img: '.jpg',
+        img: 'mem1.jpg',
         name: '#',
         desg: '#',
         insta: '#',
