@@ -72,7 +72,7 @@ oldteam = [
         mail: 'vaishnavijadhav1104@gmail.com',
     },
     {
-        img: 'Abhishek.jpg',
+        img: 'abhishek.jpg',
         name: 'Abhishek ',
         desg: 'Video Editor',
         insta: 'abhi_s_m03/',
