@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Aditya1112004.github.io/ecc",
   "name": "ecc",
-  "version": "1.0.0",
+  "version": "1.0.0", 
   "description": "",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
